@@ -25,7 +25,7 @@ body {
 .task-add__input {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-add__wrapper {
   display: flex;
@@ -50,7 +50,7 @@ button {
   cursor: pointer;
 }
 button:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 /* Heading */
 h3,
@@ -136,13 +136,13 @@ h3,
 /* Edit Task */
 .tasks-list .task .task-add__input,
 .tasks-list .task .task__input {
-  display: none
+  display: none;
 }
 
 .tasks-list .task.task-edit .task-add__input,
 .tasks-list .task.task-edit .task__input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .tasks-list .task.task-edit .task__label {
